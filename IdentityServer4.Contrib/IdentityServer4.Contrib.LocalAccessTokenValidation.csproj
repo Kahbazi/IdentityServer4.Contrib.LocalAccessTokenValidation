@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Kahbazi</Authors>
+    <Company>Kahbazi</Company>
+    <PackageTags>IdentityServer4 Authentication</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Kahbazi/IdentityServer4.Contrib.LocalAccessTokenValidation</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Kahbazi/IdentityServer4.Contrib.LocalAccessTokenValidation/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>A Schema for authenticating with bearer token locally (without calling introspection endpoint)</Description>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="2.1.2" />
+  </ItemGroup>
+
+</Project>
