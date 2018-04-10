@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.Contrib
+namespace IdentityServer4.Contrib.LocalAccessTokenValidation
 {
     public class LocalAccessTokenValidationOptions : AuthenticationSchemeOptions
     {

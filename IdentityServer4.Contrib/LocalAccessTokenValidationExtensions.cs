@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using IdentityServer4.Contrib.LocalAccessTokenValidation;
+using Microsoft.AspNetCore.Authentication;
 using System;
 
-namespace IdentityServer4.Contrib.LocalAccessTokenValidation
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class LocalAccessTokenValidationExtensions
     {

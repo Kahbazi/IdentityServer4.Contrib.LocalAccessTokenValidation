@@ -7,13 +7,13 @@ using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Contrib
+namespace IdentityServer4.Contrib.LocalAccessTokenValidation
 {
     public class LocalAccessTokenValidationHandler : AuthenticationHandler<LocalAccessTokenValidationOptions>
     {
         private readonly ITokenValidator _tokenValidator;
 
-        protected LocalAccessTokenValidationHandler(IOptionsMonitor<LocalAccessTokenValidationOptions> options, ILoggerFactory logger, UrlEncoder encoder, ISystemClock clock, ITokenValidator tokenValidator)
+        public LocalAccessTokenValidationHandler(IOptionsMonitor<LocalAccessTokenValidationOptions> options, ILoggerFactory logger, UrlEncoder encoder, ISystemClock clock, ITokenValidator tokenValidator)
             : base(options, logger, encoder, clock)
         {
             _tokenValidator = tokenValidator;

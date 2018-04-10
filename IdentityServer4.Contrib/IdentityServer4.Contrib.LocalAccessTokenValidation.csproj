@@ -11,6 +11,7 @@
     <PackageLicenseUrl>https://github.com/Kahbazi/IdentityServer4.Contrib.LocalAccessTokenValidation/blob/master/LICENSE</PackageLicenseUrl>
     <Description>A Schema for authenticating with bearer token locally (without calling introspection endpoint)</Description>
     <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
